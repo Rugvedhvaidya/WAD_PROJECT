@@ -126,6 +126,20 @@ body {
     font-weight: bold;
 }
 
+.account {
+    padding-left: 10px;
+}
+
+.profileinfo {
+    padding-left: 10px;
+}
+
+.editbtn {
+    padding-left: 350px;
+    padding-top: 150px;
+    padding-bottom: 10px;
+}
+
 .main-bd {
     width: 100%;
     display: flex;
@@ -290,12 +304,13 @@ button.createbtn i {
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 40px;
-    right: 40px;
+    bottom: 35px;
+    right: 50px;
     background-color: var(--myclr);
     color: #FFF;
     border-radius: 50px;
     text-align: center;
+    align-items: center;
     box-shadow: 2px 2px 3px #999;
 }
 
@@ -314,6 +329,25 @@ a.float:hover+div.label-container {
     visibility: visible;
     opacity: 1;
 }
+
+
+/*********************GOtop*****************/
+
+.gotop {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 9px;
+    align-items: center;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+
+/*------------------------------------------------*/
 
 
 /* card details start  */
